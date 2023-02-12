@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>果冻强国</title>
     <script src="qrcode.js"></script>
     <style>
         .wx{
@@ -13,7 +13,7 @@
 </head>
 <body>
 <div>
-    <button><a id="login" href="#"><h1>点击登录跳转学习强国app</h1></a></button>
+    <button><a id="login" href="#"><h1>点击登录果冻强国</h1></a></button>
 </div>
 <div id="wx" class="wx"></div>
 <div id="qrcode" style="margin-top: 10px">
@@ -23,7 +23,7 @@
 <script>
     function load() {
         if (isWechat()){
-            document.getElementById("wx").innerText = "当前为微信环境，请点击右上角浏览器中打开"
+            document.getElementById("wx").innerText = "点击右上角浏览器中打开，别在微信打开啊喂"
         }
         let search = window.location.search
         search = search.substring(1,search.length)
